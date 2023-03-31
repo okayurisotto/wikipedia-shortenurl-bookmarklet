@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "build": "ts-node ./esbuild.ts"
+    "build": "node ./esbuild.js"
   },
   "devDependencies": {
     "@tsconfig/strictest": "^2.0.0",
