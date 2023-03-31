@@ -1,0 +1,3 @@
+# wikipedia-shortenurl-bookmarklet
+
+Wikipediaの記事ページで実行することで短縮URLが得られるブックマークレット。

@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "ts-node ./esbuild.ts"
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "^2.0.0",
+    "@types/node": "^18.15.11",
+    "esbuild": "^0.17.14",
+    "prettier": "^2.8.7",
+    "typescript": "^5.0.3"
+  }
+}
