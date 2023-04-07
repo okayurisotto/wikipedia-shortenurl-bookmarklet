@@ -1,8 +1,8 @@
 type Data = {
   shortenurl: {
-    shorturl: string,
-    shorturlalt: string,
-  },
+    shorturl: string;
+    shorturlalt: string;
+  };
 };
 
 (async () => {
@@ -23,7 +23,7 @@ type Data = {
       url: location.href,
     }).toString(),
   });
-  const data = await res.json() as Data;
+  const data: Data = await res.json();
 
   prompt("", data.shortenurl.shorturl);
 })();
