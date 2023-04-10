@@ -23,4 +23,3 @@ jobs:
         with:
           body_path: ${{ github.workspace }}-CHANGELOG.txt
           files: out/*.*
-          token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
