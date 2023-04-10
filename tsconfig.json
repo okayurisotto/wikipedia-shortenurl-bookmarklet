@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ES2021",
-    "moduleResolution": "Node"
+    "moduleResolution": "Node",
+    "noEmit": true,
+    "target": "ES2021"
   },
   "extends": "@tsconfig/strictest/tsconfig.json"
 }
